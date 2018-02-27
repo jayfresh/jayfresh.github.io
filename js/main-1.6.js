@@ -74,11 +74,9 @@ $(function() {
 
 		},
 		offset: '25%'
-	})
-	
-	
-	navigation_links.click( function(event) {
+	});
 
+	navigation_links.click( function(event) {
 		$.scrollTo(
 			$(this).attr("href"),
 			{
@@ -86,8 +84,6 @@ $(function() {
 				offset: { 'left':0, 'top':-0.08*$(window).height() }
 			}
 		);
-			event.preventDefault();
+		event.preventDefault();
 	});
-
-    $('figure.responsive-image').picture();
 });
