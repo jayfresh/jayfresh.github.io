@@ -77,6 +77,7 @@ $(function() {
 	});
 
 	navigation_links.click( function(event) {
+		console.log($(this).attr('href'));
 		$.scrollTo(
 			$(this).attr("href"),
 			{
