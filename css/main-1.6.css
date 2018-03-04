@@ -120,8 +120,16 @@ body {
    =================== */
 
 #logo {
-  width: 200px;
+  width: 180px;
   margin: 20px;
+}
+
+.column iframe {
+  padding: 0 20px;
+}
+
+iframe {
+  max-width: 100%;
 }
 
 .header-container {
@@ -146,7 +154,7 @@ body {
 #introtext {
     display: block;
     padding: 10px 0 10px 0;
-    margin-bottom: 300px;
+    margin-bottom: 100px;
     background: black;
 
     -ms-border-radius: 8px;
@@ -165,12 +173,12 @@ body {
     -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#B2000000, endColorstr=#B2000000)";
 }
 
-#introtext .amp {
+/*#introtext .amp {
     position: relative;
     top: 19px;
     margin-left: -10px;
     font-size: 0.7em;
-}
+}*/
 #introtext .head-jonny, #introtext .head-bonnie {
     font-family: "futura_ltbook", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     font-size: 2em;
@@ -364,12 +372,12 @@ section h2 {
     /*#introtext .head-bonnie {
         font-size: 7em;
     }*/
-    #introtext .amp {
+    /*#introtext .amp {
         position: relative;
         top: 29px;
         font-size: 0.9em;
         margin-left: -20px;
-    }
+    }*/
     #introtext .head-jonny {
         font-size: 3em;
     }
@@ -472,10 +480,10 @@ section h2 {
     WIDE: Menu
    ============ */
 
-    #introtext .amp {
+    /*#introtext .amp {
         top: 0;
         font-size: 1em;
-    }
+    }*/
     #introtext .head-jonny, #introtext .head-bonnie {
         font-size: 4em;
     }
@@ -545,10 +553,10 @@ section h2 {
         margin: 0 auto;
     }
 
-    #introtext .amp {
+    /*#introtext .amp {
         top: 0;
         font-size: 1.1em;
-    }
+    }*/
     #introtext .head-jonny, #introtext .head-bonnie {
         font-size: 5em;
     }
