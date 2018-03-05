@@ -180,13 +180,13 @@ iframe {
     font-size: 0.7em;
 }*/
 #introtext .head-jonny, #introtext .head-bonnie {
-    font-family: "futura_ltbook", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     font-size: 2em;
     line-height: 100%;
 }
 #introtext .date {
     margin-top: 10px;
-    font-family: "futura_ltbook", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     font-size: 1em;
 }
 
@@ -199,7 +199,7 @@ nav {
 }
 
 nav ul {
-    font-family:"futura_ltbook",Arial,sans-serif;
+    font-family:"Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     font-weight: normal;
     margin: 5px 0 0 0;
     padding: 0;
@@ -211,7 +211,6 @@ nav a {
     padding: 5px 0;
     text-align: center;
     text-decoration: none;
-    font-weight: bold;
     color: white;
     background: transparent;
     white-space: nowrap;
@@ -260,7 +259,8 @@ html {
 }
 
 body {
-    font-family: "futura_ltbook", "HelveticaNeueLTStdRegular","HelveticaNeue", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: 300;
     color: #fff;
     text-align: center;
 
@@ -313,10 +313,7 @@ section {
 }
 
 section h1 {
-
-    /*font-family: "EdwardianScrAltITCTT", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;*/
     font-size: 2.6em;
-
 }
 section h2 {
     font-size: 1.1em;
