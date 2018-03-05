@@ -41,7 +41,9 @@ $(function() {
 
 	nav_container.waypoint({
 		handler: function(event, direction) {
-			
+			if ($(window).width() < 480) {
+				return;
+			}
 			if (direction == 'down') {
 			
 				nav_container.css({ 'height':nav.outerHeight(), 'position':'', 'bottom':''  });
