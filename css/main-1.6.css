@@ -433,7 +433,7 @@ section h2 {
         padding: 40px 40px 70px 40px;
     }
     section h1 {
-        font-size: 3.1em;
+        font-size: 3em;
     }
     section h2 {
         font-size: 1.7em;
@@ -470,7 +470,7 @@ section h2 {
    ==================== */
 
     section h1 {
-        font-size: 4.9em;
+        font-size: 3em;
     }
     section h2 {
         font-size: 2.0em;
@@ -516,7 +516,7 @@ section h2 {
         padding: 0 20px;
     }
     section h1 {
-        font-size: 5.9em;
+        font-size: 3em;
     }
 
     .column.full {
@@ -529,7 +529,7 @@ section h2 {
         width: 50%;
     }
     .column p {
-        font-size: 1.4em;
+        font-size: 1.2em;
         line-height: 145%;
         padding: 0 20px;
     }  
