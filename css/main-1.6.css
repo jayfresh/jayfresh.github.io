@@ -341,6 +341,10 @@ section h2 {
    Media Queries
    ========================================================================== */
 
+section:nth-of-type(1) {
+  margin-top: 200px; /* to push below the nav on mobile */
+}
+
 @media only screen and (min-width: 480px) {
 
   section:nth-of-type(1) {
